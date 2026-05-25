@@ -1,0 +1,25 @@
+{
+  "name": "claudecode-plugin-video-content-production",
+  "version": "1.0.0",
+  "description": "Multi-lane expert video production and editing pipeline plugin for Claude Code and Codex.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [
+    "claude-code",
+    "codex",
+    "plugin",
+    "video-production",
+    "hyperframes",
+    "manim",
+    "ffmpeg",
+    "agentic-workflow"
+  ],
+  "author": "kingkillery",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "hyperframes": "latest"
+  }
+}

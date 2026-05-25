@@ -4,7 +4,7 @@
   "description": "Multi-lane expert video production and editing pipeline plugin for Claude Code and Codex.",
   "main": "index.js",
   "bin": {
-    "install-video-plugin": "./bin/index.js"
+    "install-video-plugin": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"

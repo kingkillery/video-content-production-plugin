@@ -1,4 +1,4 @@
-# Video Content Production Plugin 🎬⚡
+# pk-mvmaker 🎬⚡
 
 A premium, agentic, multi-lane video creation & editing pipeline plugin designed specifically for **Claude Code**, **Codex**, and modern LLM coding agents. It enables autonomous systems to generate premium HTML/CSS/GSAP kinetic web animations, perform transcript-driven Whisper cuts on raw footage, construct beautiful math/algorithmic animations, and orchestrate visual web workspaces.
 
@@ -40,12 +40,12 @@ Install the package globally, or run it directly using `npx` in the root of any 
 ### Method 1: Instant Setup (Zero Install)
 From your active project workspace root, run:
 ```bash
-npx @pk-nerdsaver-ai/video-content-production-plugin
+npx @pk-nerdsaver-ai/pk-mvmaker
 ```
 
 ### Method 2: Global Install
 ```bash
-npm install -g @pk-nerdsaver-ai/video-content-production-plugin
+npm install -g @pk-nerdsaver-ai/pk-mvmaker
 # Then run anywhere in your workspace:
 install-video-plugin
 ```

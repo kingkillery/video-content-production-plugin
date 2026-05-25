@@ -1,6 +1,6 @@
 {
   "name": "@pk-nerdsaver-ai/video-content-production-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Multi-lane expert video production and editing pipeline plugin for Claude Code and Codex.",
   "main": "index.js",
   "bin": {

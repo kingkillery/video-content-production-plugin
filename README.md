@@ -21,6 +21,8 @@ A premium, agentic, multi-lane video creation & editing pipeline plugin designed
 
 ```
 video-content-production-plugin/
+├── bin/
+│   └── index.js       # CLI auto-installer script targeting active workspaces
 ├── SKILL.md           # Core skill specification and system instructions for the LLM
 ├── README.md          # Architectural guide, integration, and setup documentation
 ├── package.json       # Node package manager manifest for easy script dependency tracking
@@ -31,22 +33,21 @@ video-content-production-plugin/
 
 ---
 
-## 🚀 Installation & Integration
+## 🚀 Easy Installation via NPM
 
-### 1. Claude Code
-To equip **Claude Code** with this plugin, add the path to your skills registry, or include `SKILL.md` directly inside your active workspace instructions (e.g., in a `.claudecode/` config or custom system prompt profile):
+Install the package globally, or run it directly using `npx` in the root of any project workspace. The CLI will automatically scan for and install the skill files into **Claude Code**, **Codex**, and **Agents** skill registries inside that project.
 
+### Method 1: Instant Setup (Zero Install)
+From your active project workspace root, run:
 ```bash
-# Clone the repository into your project's plugin registry
-git clone https://github.com/kingkillery/video-content-production-plugin.git .claudecode/skills/video-content-production
+npx @pk-nerdsaver-ai/video-content-production-plugin
 ```
 
-### 2. Codex / Advanced Gemini Agents
-For systems utilizing Codex skill routing (e.g., standard `.codex/skills/` layout):
-
+### Method 2: Global Install
 ```bash
-mkdir -p .codex/skills/content-video-production
-cp SKILL.md .codex/skills/content-video-production/SKILL.md
+npm install -g @pk-nerdsaver-ai/video-content-production-plugin
+# Then run anywhere in your workspace:
+install-video-plugin
 ```
 
 ---

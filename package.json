@@ -1,6 +1,6 @@
 {
   "name": "@pk-nerdsaver-ai/pk-mvmaker",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Multi-lane expert video production and editing pipeline plugin for Claude Code and Codex.",
   "main": "index.js",
   "bin": {
